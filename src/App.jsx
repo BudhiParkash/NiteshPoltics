@@ -1,6 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Homepage from "./pages/homepage/Homepage";
 import Single from "./pages/single/Single";
+import "./App.css"
 import Carasoual from "./components/Carasoual/Carasoual.js"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

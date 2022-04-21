@@ -72,9 +72,11 @@
 
 @media screen and (max-width: 788px) {
   .posts {
-    flex: 9;
+    flex: 12;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
   }
   .post {
     width: 355px;
@@ -105,5 +107,41 @@
     margin-top: 15px;
     margin-right: 10px;
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 455px) {
+  .posts {
+    flex: 12;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .post {
+    width: 300px;
+    margin: 0px 5px 4px 5px;
+  }
+
+  .postImg {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .posts {
+    flex: 12;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .post {
+    width: 250px;
+    margin: 0px 5px 4px 5px;
+  }
+
+  .postImg {
+    width: 250px;
   }
 }
